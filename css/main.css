@@ -1045,9 +1045,11 @@ input:checked + .slider:before {
     min-width: 200px;
     width: 200px;
     flex: 1;
-    max-width: 228px; } }
+    max-width: 228px; }
+  .right-side .items-section .burger-banner img {
+    height: 160px; } }
 
-.container {
+.right-side .items-section .container {
   max-width: 1280px;
   width: 100%; }
 
