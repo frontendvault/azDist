@@ -1041,11 +1041,14 @@ input:checked + .slider:before {
   font-weight: 600; }
 
 @media only screen and (min-width: 1260px) {
+  .container {
+    max-width: 1360px;
+    width: 100%; }
   .right-side .items-section .item {
     min-width: 170px;
     width: 200px;
     flex: 1;
-    max-width: 200px; }
+    max-width: 220px; }
   .right-side .items-section .burger-banner img {
     height: 160px; } }
 
