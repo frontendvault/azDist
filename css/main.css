@@ -420,8 +420,19 @@ aside {
           height: 33px;
           line-height: 20px; }
         .custom-width-modal .modal-body .toppings .toppings-contents .open-on-check .btns-area .brown-text {
-          color: #9E4122;
-          font-weight: 600; }
+          background-color: #9E4122;
+          font-weight: 600;
+          color: #fff;
+          box-shadow: none; }
+      .custom-width-modal .modal-body .toppings .toppings-contents .custom-control .custom-control-label {
+        padding-left: 10px; }
+        .custom-width-modal .modal-body .toppings .toppings-contents .custom-control .custom-control-label::before {
+          width: 20px;
+          height: 20px;
+          border-color: #9E4122; }
+        .custom-width-modal .modal-body .toppings .toppings-contents .custom-control .custom-control-label::after {
+          top: 6px;
+          left: -22px; }
     .custom-width-modal .modal-body .add-instructions {
       margin-bottom: 20px; }
       .custom-width-modal .modal-body .add-instructions a {
