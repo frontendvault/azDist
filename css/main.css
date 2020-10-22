@@ -147,6 +147,11 @@ aside {
         justify-content: center;
         font-weight: 100;
         line-height: 16px; }
+    .right-side .items-section .item .tags .badge {
+      padding: 6px 10px; }
+      .right-side .items-section .item .tags .badge img {
+        width: 22px;
+        height: 22px; }
 
 .cart-section {
   padding: 0 20px; }
