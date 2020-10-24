@@ -461,6 +461,7 @@ but this will also keep them from being obnoxious
     .custom-width-modal .modal-body .item-description {
       display: flex;
       justify-content: space-between;
+      border-bottom: 1px solid #D8D8D8;
       padding-bottom: 20px; }
       .custom-width-modal .modal-body .item-description .item-title h3 {
         font-size: 24px;
@@ -471,8 +472,7 @@ but this will also keep them from being obnoxious
         color: #777777; }
     .custom-width-modal .modal-body .tags {
       display: block;
-      border-bottom: 1px solid #D8D8D8;
-      padding-bottom: 10px; }
+      margin-top: 20px; }
       .custom-width-modal .modal-body .tags .badge {
         margin-right: 4px;
         padding: 5px; }
