@@ -62,7 +62,14 @@ aside {
     line-height: 10px; }
 
 .right-side {
-  padding: 0 40px; }
+  padding: 0 40px;
+  /* START TOOLTIP STYLES */
+  /* Applies to all tooltips */
+  /* Make the tooltips respond to hover */
+  /* don't show empty tooltips */
+  /* FLOW: UP */
+  /* KEYFRAMES */
+  /* FX All The Things */ }
   .right-side .btn-blocks {
     display: flex;
     margin-bottom: 30px;
@@ -148,82 +155,74 @@ aside {
         justify-content: center;
         font-weight: 100;
         line-height: 16px; }
-    .right-side .items-section .item .tags {
-      /* START TOOLTIP STYLES */
-      /* Applies to all tooltips */
-      /* Make the tooltips respond to hover */
-      /* don't show empty tooltips */
-      /* FLOW: UP */
-      /* KEYFRAMES */
-      /* FX All The Things */ }
-      .right-side .items-section .item .tags .badge {
-        padding: 6px 10px; }
-        .right-side .items-section .item .tags .badge img {
-          width: 22px;
-          height: 22px; }
-      .right-side .items-section .item .tags [tooltip] {
-        position: relative;
-        /* opinion 1 */ }
-      .right-side .items-section .item .tags [tooltip]::before,
-      .right-side .items-section .item .tags [tooltip]::after {
-        text-transform: none;
-        /* opinion 2 */
-        font-size: .9em;
-        /* opinion 3 */
-        line-height: 1;
-        user-select: none;
-        pointer-events: none;
-        position: absolute;
-        display: none;
-        opacity: 0; }
-      .right-side .items-section .item .tags [tooltip]::before {
-        content: '';
-        border: 5px solid transparent;
-        /* opinion 4 */
-        z-index: 1001;
-        /* absurdity 1 */ }
-      .right-side .items-section .item .tags [tooltip]::after {
-        content: attr(tooltip);
-        /* magic! */
-        /* most of the rest of this is opinion */
-        font-family: Helvetica, sans-serif;
-        text-align: center;
-        /* 
-      Let the content set the size of the tooltips 
-      but this will also keep them from being obnoxious
-      */
-        min-width: 3em;
-        max-width: 21em;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        padding: 1ch 1.5ch;
-        border-radius: .3ch;
-        box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
-        background: #333;
-        color: #fff;
-        z-index: 1000;
-        /* absurdity 2 */ }
-      .right-side .items-section .item .tags [tooltip]:hover::before,
-      .right-side .items-section .item .tags [tooltip]:hover::after {
-        display: block; }
-      .right-side .items-section .item .tags [tooltip='']::before,
-      .right-side .items-section .item .tags [tooltip='']::after {
-        display: none !important; }
-      .right-side .items-section .item .tags [tooltip]:not([flow])::before,
-      .right-side .items-section .item .tags [tooltip][flow^="up"]::before {
-        bottom: 100%;
-        border-bottom-width: 0;
-        border-top-color: #333; }
-      .right-side .items-section .item .tags [tooltip]:not([flow])::after,
-      .right-side .items-section .item .tags [tooltip][flow^="up"]::after {
-        bottom: calc(100% + 5px); }
-      .right-side .items-section .item .tags [tooltip]:not([flow])::before,
-      .right-side .items-section .item .tags [tooltip]:not([flow])::after,
-      .right-side .items-section .item .tags [tooltip][flow^="up"]::before,
-      .right-side .items-section .item .tags [tooltip][flow^="up"]::after {
-        left: 50%;
-        transform: translate(-50%, -0.5em); }
+    .right-side .items-section .item .tags .badge {
+      padding: 6px 10px; }
+      .right-side .items-section .item .tags .badge img {
+        width: 22px;
+        height: 22px; }
+  .right-side [tooltip] {
+    position: relative;
+    /* opinion 1 */ }
+  .right-side [tooltip]::before,
+  .right-side [tooltip]::after {
+    text-transform: none;
+    /* opinion 2 */
+    font-size: .9em;
+    /* opinion 3 */
+    line-height: 1;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    display: none;
+    opacity: 0; }
+  .right-side [tooltip]::before {
+    content: '';
+    border: 5px solid transparent;
+    /* opinion 4 */
+    z-index: 1001;
+    /* absurdity 1 */ }
+  .right-side [tooltip]::after {
+    content: attr(tooltip);
+    /* magic! */
+    /* most of the rest of this is opinion */
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    /* 
+Let the content set the size of the tooltips 
+but this will also keep them from being obnoxious
+*/
+    min-width: 3em;
+    max-width: 21em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 1ch 1.5ch;
+    border-radius: .3ch;
+    box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
+    background: #333;
+    color: #fff;
+    z-index: 1000;
+    /* absurdity 2 */ }
+  .right-side [tooltip]:hover::before,
+  .right-side [tooltip]:hover::after {
+    display: block; }
+  .right-side [tooltip='']::before,
+  .right-side [tooltip='']::after {
+    display: none !important; }
+  .right-side [tooltip]:not([flow])::before,
+  .right-side [tooltip][flow^="up"]::before {
+    bottom: 100%;
+    border-bottom-width: 0;
+    border-top-color: #333; }
+  .right-side [tooltip]:not([flow])::after,
+  .right-side [tooltip][flow^="up"]::after {
+    bottom: calc(100% + 5px); }
+  .right-side [tooltip]:not([flow])::before,
+  .right-side [tooltip]:not([flow])::after,
+  .right-side [tooltip][flow^="up"]::before,
+  .right-side [tooltip][flow^="up"]::after {
+    left: 50%;
+    transform: translate(-50%, -0.5em); }
 
 @keyframes tooltips-vert {
   to {
@@ -234,13 +233,13 @@ aside {
   to {
     opacity: .9;
     transform: translate(0, -50%); } }
-      .right-side .items-section .item .tags [tooltip]:not([flow]):hover::before,
-      .right-side .items-section .item .tags [tooltip]:not([flow]):hover::after,
-      .right-side .items-section .item .tags [tooltip][flow^="up"]:hover::before,
-      .right-side .items-section .item .tags [tooltip][flow^="up"]:hover::after,
-      .right-side .items-section .item .tags [tooltip][flow^="down"]:hover::before,
-      .right-side .items-section .item .tags [tooltip][flow^="down"]:hover::after {
-        animation: tooltips-vert 300ms ease-out forwards; }
+  .right-side [tooltip]:not([flow]):hover::before,
+  .right-side [tooltip]:not([flow]):hover::after,
+  .right-side [tooltip][flow^="up"]:hover::before,
+  .right-side [tooltip][flow^="up"]:hover::after,
+  .right-side [tooltip][flow^="down"]:hover::before,
+  .right-side [tooltip][flow^="down"]:hover::after {
+    animation: tooltips-vert 300ms ease-out forwards; }
 
 .cart-section {
   padding: 0 20px; }
@@ -462,8 +461,7 @@ aside {
     .custom-width-modal .modal-body .item-description {
       display: flex;
       justify-content: space-between;
-      border-bottom: 1px solid #D8D8D8;
-      padding-bottom: 30px; }
+      padding-bottom: 20px; }
       .custom-width-modal .modal-body .item-description .item-title h3 {
         font-size: 24px;
         color: #343434; }
@@ -471,6 +469,16 @@ aside {
         font-size: 16px;
         font-weight: 100;
         color: #777777; }
+    .custom-width-modal .modal-body .tags {
+      display: block;
+      border-bottom: 1px solid #D8D8D8;
+      padding-bottom: 10px; }
+      .custom-width-modal .modal-body .tags .badge {
+        margin-right: 4px;
+        padding: 5px; }
+        .custom-width-modal .modal-body .tags .badge img {
+          height: 22px;
+          width: 22px; }
     .custom-width-modal .modal-body .item-price {
       color: #9E4122;
       font-size: 24px;
