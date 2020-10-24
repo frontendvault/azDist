@@ -472,7 +472,8 @@ but this will also keep them from being obnoxious
         color: #777777; }
     .custom-width-modal .modal-body .tags {
       display: block;
-      margin-top: 20px; }
+      margin-top: 39px;
+      width: 154px; }
       .custom-width-modal .modal-body .tags .badge {
         margin-right: 4px;
         padding: 5px; }
@@ -1574,6 +1575,8 @@ input:checked + .slider:before {
     .custom-width-modal .cart-section .cart-inner {
       padding: 0;
       box-shadow: none; }
+  .custom-width-modal .modal-body .tags {
+    margin-top: 65px; }
   aside {
     width: 100%; }
     aside .list-group {
