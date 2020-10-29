@@ -354,7 +354,7 @@ but this will also keep them from being obnoxious
   width: 110px; }
 
 .start-order {
-  margin-top: -100px !important; }
+  margin-top: -100px; }
   .start-order .takeout-catering .nav .nav-item .nav-link {
     color: #9E4122;
     font-weight: 600; }
@@ -1086,26 +1086,10 @@ input:checked + .slider:before {
       z-index: 1; }
       .checkout-pages .progress .progress-bar span {
         background: #fff;
-        width: 30px;
-        height: 30px;
         display: block;
         position: absolute;
         right: 0;
-        border: 2px solid #9E4122;
         border-radius: 50%; }
-        .checkout-pages .progress .progress-bar span:after {
-          bottom: 100%;
-          left: 50%;
-          border: solid transparent;
-          content: " ";
-          height: 0;
-          width: 0;
-          position: absolute;
-          pointer-events: none;
-          border-color: rgba(255, 255, 255, 0);
-          border-bottom-color: #5c4084;
-          border-width: 5px;
-          margin-left: -5px; }
 
 .confirm-payment .items-to-checkout h4 {
   font-size: 18px;
@@ -1632,7 +1616,8 @@ input:checked + .slider:before {
     font-size: 16px; }
   .right-side {
     padding-left: 15px;
-    padding-right: 15px; }
+    padding-right: 15px;
+    margin-top: 0 !important; }
     .right-side .top-spacing {
       margin-top: 35px; }
     .right-side .alert-text {
@@ -1735,23 +1720,6 @@ input:checked + .slider:before {
       .right-side .items-section .start-order .policy-terms .nav-link {
         font-size: 16px;
         font-weight: 500; }
-    .right-side .items-section .location-status-map {
-      box-shadow: none;
-      padding: 15px; }
-      .right-side .items-section .location-status-map .location-container {
-        height: auto; }
-        .right-side .items-section .location-status-map .location-container .location .location-left h3 {
-          font-size: 18px; }
-        .right-side .items-section .location-status-map .location-container .location .location-left h4 {
-          margin-bottom: 15px; }
-        .right-side .items-section .location-status-map .location-container .location .location-left p {
-          font-size: 15px; }
-        .right-side .items-section .location-status-map .location-container .location .location-right {
-          max-width: 100%;
-          display: flex;
-          justify-content: space-between; }
-    .right-side .items-section .map-area {
-      display: none; }
     .right-side .items-section #cartModal .close {
       position: absolute !important;
       right: 20px;
@@ -1764,80 +1732,6 @@ input:checked + .slider:before {
       .right-side .items-section #cartModal .cart-inner .checkout {
         border-radius: 6px;
         padding: 12px; }
-    .right-side .items-section .checkout-pages {
-      margin-top: -20px; }
-      .right-side .items-section .checkout-pages h3 {
-        font-size: 18px;
-        margin-bottom: 20px; }
-      .right-side .items-section .checkout-pages .suggest-order-addition h3 {
-        font-size: 18px;
-        line-height: 26px; }
-      .right-side .items-section .checkout-pages .table {
-        margin-bottom: 0; }
-        .right-side .items-section .checkout-pages .table thead tr th {
-          padding: 8px; }
-        .right-side .items-section .checkout-pages .table thead tr .loyality-points-mobile {
-          width: 68px; }
-        .right-side .items-section .checkout-pages .table tbody tr td {
-          padding: 8px; }
-          .right-side .items-section .checkout-pages .table tbody tr td .btn-outline {
-            margin-left: 10px;
-            height: 26px;
-            width: 26px; }
-            .right-side .items-section .checkout-pages .table tbody tr td .btn-outline img {
-              width: 12px; }
-      .right-side .items-section .checkout-pages .progress {
-        margin-bottom: 35px; }
-      .right-side .items-section .checkout-pages .checkout-inner-container {
-        padding: 20px; }
-        .right-side .items-section .checkout-pages .checkout-inner-container .coupon-section {
-          border: 0;
-          padding: 0; }
-          .right-side .items-section .checkout-pages .checkout-inner-container .coupon-section .coupon-section-inner .add-trip {
-            flex-direction: column;
-            align-items: flex-start; }
-        .right-side .items-section .checkout-pages .checkout-inner-container .amount-total {
-          padding: 20px; }
-      .right-side .items-section .checkout-pages .confirm-payment .guest-details .nav {
-        background: none;
-        padding: 0; }
-        .right-side .items-section .checkout-pages .confirm-payment .guest-details .nav .nav-item .nav-link {
-          padding: 10px;
-          font-size: 14px; }
-      .right-side .items-section .checkout-pages .guest-details {
-        padding: 20px; }
-        .right-side .items-section .checkout-pages .guest-details form .social-login {
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 20px; }
-          .right-side .items-section .checkout-pages .guest-details form .social-login .btn {
-            margin-right: 0;
-            margin-bottom: 20px;
-            padding: 10px 20px; }
-        .right-side .items-section .checkout-pages .guest-details form .btn {
-          padding: 10px 20px; }
-      .right-side .items-section .checkout-pages .order-summary h4 {
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-        margin-top: 10px; }
-      .right-side .items-section .checkout-pages .order-summary h5 {
-        color: #777777; }
-      .right-side .items-section .checkout-pages .order-summary small {
-        color: #777777; }
-      .right-side .items-section .checkout-pages .items-to-checkout h4 span {
-        display: block;
-        margin-left: 0;
-        margin-top: 5px;
-        margin-bottom: 10px; }
-      .right-side .items-section .checkout-pages .items-to-checkout .checkout-total {
-        margin-top: 20px;
-        padding-top: 20px;
-        border-top: 1px solid #D8D8D8; }
-      .right-side .items-section .checkout-pages .items-to-checkout p {
-        margin-bottom: 0; }
-      .right-side .items-section .checkout-pages .unlock-rewards {
-        padding: 15px 0; }
     .right-side .items-section .order-usual-modal .order-my-usual .table .img-col {
       width: 100px; }
     .right-side .items-section .order-usual-modal .order-my-usual .table td {
@@ -1888,4 +1782,124 @@ input:checked + .slider:before {
           border-radius: 5px;
           text-align: center; }
         .right-side .items-section .order-history .order-history-card .border-bottom {
-          border-bottom: none !important; } }
+          border-bottom: none !important; }
+  .checkout-pages {
+    margin-top: -20px; }
+    .checkout-pages .guest-details {
+      padding: 20px; }
+      .checkout-pages .guest-details form .btn {
+        width: 100%; }
+    .checkout-pages h3 {
+      font-size: 18px;
+      margin-bottom: 20px; }
+    .checkout-pages .suggest-order-addition h3 {
+      font-size: 18px;
+      line-height: 26px; }
+    .checkout-pages .table {
+      margin-bottom: 0; }
+      .checkout-pages .table thead tr th {
+        padding: 8px; }
+      .checkout-pages .table thead tr .loyality-points-mobile {
+        width: 68px; }
+      .checkout-pages .table tbody tr td {
+        padding: 8px; }
+        .checkout-pages .table tbody tr td .btn-outline {
+          margin-left: 10px;
+          height: 26px;
+          width: 26px; }
+          .checkout-pages .table tbody tr td .btn-outline img {
+            width: 12px; }
+    .checkout-pages .progress {
+      margin-bottom: 35px; }
+    .checkout-pages .checkout-inner-container {
+      padding: 20px; }
+      .checkout-pages .checkout-inner-container .coupon-section {
+        border: 0;
+        padding: 0; }
+        .checkout-pages .checkout-inner-container .coupon-section .coupon-section-inner .add-trip {
+          flex-direction: column;
+          align-items: flex-start; }
+      .checkout-pages .checkout-inner-container .amount-total {
+        padding: 20px; }
+    .checkout-pages .confirm-payment .guest-details .nav {
+      background: none;
+      padding: 0; }
+      .checkout-pages .confirm-payment .guest-details .nav .nav-item .nav-link {
+        padding: 10px;
+        font-size: 14px; }
+    .checkout-pages .guest-details {
+      padding: 20px; }
+      .checkout-pages .guest-details form .social-login {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px; }
+        .checkout-pages .guest-details form .social-login .btn {
+          margin-right: 0;
+          margin-bottom: 20px;
+          padding: 10px 20px; }
+      .checkout-pages .guest-details form .btn {
+        padding: 10px 20px; }
+    .checkout-pages .order-summary h4 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      margin-top: 10px; }
+    .checkout-pages .order-summary h5 {
+      color: #777777; }
+    .checkout-pages .order-summary small {
+      color: #777777; }
+    .checkout-pages .items-to-checkout h4 span {
+      display: block;
+      margin-left: 0;
+      margin-top: 5px;
+      margin-bottom: 10px; }
+    .checkout-pages .items-to-checkout .checkout-total {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #D8D8D8; }
+    .checkout-pages .items-to-checkout p {
+      margin-bottom: 0; }
+    .checkout-pages .unlock-rewards {
+      padding: 15px 0; }
+  .location-status-map {
+    box-shadow: none;
+    padding: 15px; }
+    .location-status-map .location-container {
+      height: auto; }
+      .location-status-map .location-container .location .location-left h3 {
+        font-size: 18px; }
+      .location-status-map .location-container .location .location-left h4 {
+        margin-bottom: 15px; }
+      .location-status-map .location-container .location .location-left p {
+        font-size: 15px; }
+      .location-status-map .location-container .location .location-right {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between; }
+  .map-area {
+    display: none; }
+  .order-confirmed {
+    margin-top: 10px;
+    padding: 20px; }
+    .order-confirmed .order-confirmed-content {
+      padding-top: 10px; }
+      .order-confirmed .order-confirmed-content .order-left {
+        padding: 20px; }
+        .order-confirmed .order-confirmed-content .order-left .order-details {
+          margin-bottom: 30px; }
+        .order-confirmed .order-confirmed-content .order-left .order-status {
+          margin-bottom: 30px; }
+        .order-confirmed .order-confirmed-content .order-left .small-devices-cart-success {
+          margin-bottom: 30px;
+          padding: 10px; }
+          .order-confirmed .order-confirmed-content .order-left .small-devices-cart-success p {
+            margin-bottom: 0; }
+    .order-confirmed .success-wrapper h2 {
+      font-size: 24px; }
+      .order-confirmed .success-wrapper h2 span {
+        font-size: 18px;
+        margin-top: 5px; }
+  .slick-list,
+  .slide-arrow {
+    height: 90px;
+    padding: 0 10px !important; } }
