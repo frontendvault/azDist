@@ -1467,10 +1467,14 @@ input:checked + .slider:before {
         line-height: 18px; }
     .right-side .items-section .burger-banner {
       padding: 0 1rem; }
-      .right-side .items-section .burger-banner img {
-        width: 100%; }
-    .right-side .items-section .item img {
-      width: 100%; }
+    .right-side .items-section .row {
+      justify-content: space-between; }
+      .right-side .items-section .row .item {
+        width: 46%; }
+        .right-side .items-section .row .item img {
+          width: 100%; }
+  .tags {
+    margin-top: 10px; }
   .custom-width-modal .modal-body .close {
     margin-bottom: 15px; }
   .location-status-map {
