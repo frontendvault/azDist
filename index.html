@@ -1246,28 +1246,49 @@
                       <div class="row">
                         <div class="row">
                           <div class="col sub-total mt-4 bg-light">
-                            <div class="add-ons">
-                              <h5>Sub Total</h5>
-                              <div class="price">$13.00</div>
-                            </div>
-                            <div class="add-ons">
-                              <h5>Tax</h5>
-                              <div class="price">$$0.10</div>
-                            </div>
-                            <div class="add-ons">
-                              <h5>Online Ordering</h5>
-                              <div class="price">$1.00</div>
-                            </div>
-                            <div class="add-ons total">
-                              <h5><strong>Total</strong></h5>
-                              <div class="price">
-                                <strong>$14.10</strong>
+
+                            <div class="accordion w-100" id="accordionExample">
+                              <div class="card">
+                                <div class="card-header p-0" id="headingOne">
+                                  <h2 class="mb-0" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="add-ons">
+                                      <h5>Sub Total</h5>
+                                      <div class="price">$13.00</div>
+                                    </div>
+                                  </h2>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                  data-parent="#accordionExample">
+                                  <div class="card-body px-0">
+                                    <div class="add-ons">
+                                      <h5>Tax</h5>
+                                      <div class="price">$$0.10</div>
+                                    </div>
+                                    <div class="add-ons">
+                                      <h5>Online Ordering</h5>
+                                      <div class="price">$1.00</div>
+                                    </div>
+                                    <div class="add-ons">
+                                      <h5>Service Charges</h5>
+                                      <div class="price">$1.00</div>
+                                    </div>
+                                    <div class="add-ons">
+                                      <h5>Order Fee</h5>
+                                      <div class="price">$1.00</div>
+                                    </div>
+                                    <div class="add-ons">
+                                      <h5>Delivery Charges</h5>
+                                      <div class="price">$1.00</div>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
-                            <div class="row">
-                              <div class="col"> <button class="btn checkout btn-block btn-lg">
-                                  Proceed to Checkout
-                                </button>
+                            <div class="add-ons total mb-3">
+                              <h5><strong>Total</strong></h5>
+                              <div class="price">
+                                <strong>$17.10</strong>
                               </div>
                             </div>
                           </div>
