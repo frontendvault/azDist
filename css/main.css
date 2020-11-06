@@ -1153,9 +1153,7 @@ input:checked + .slider:before {
     max-width: 220px;
     margin-bottom: 20px; }
   .right-side .items-section .burger-banner {
-    background: none !important; }
-    .right-side .items-section .burger-banner img {
-      height: 160px; }
+    background: none; }
     .right-side .items-section .burger-banner h4 {
       margin-top: -41px;
       color: #fff; } }
