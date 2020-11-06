@@ -1150,7 +1150,8 @@ input:checked + .slider:before {
     min-width: 170px;
     width: 200px;
     flex: 1;
-    max-width: 220px; }
+    max-width: 220px;
+    margin-bottom: 20px; }
   .right-side .items-section .burger-banner img {
     height: 160px; } }
 
