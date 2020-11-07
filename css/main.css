@@ -105,6 +105,14 @@ aside {
     .right-side .alert-text .close {
       padding: 0;
       opacity: 1; }
+  .right-side .filter-buttons .btn {
+    border: 1px solid #D8D8D8; }
+    .right-side .filter-buttons .btn img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px; }
+  .right-side #cartToggle {
+    border: 1px solid #D8D8D8; }
   .right-side .items-section .burger-banner {
     /* fallback for old browsers */
     /* Chrome 10-25, Safari 5.1-6 */
@@ -1152,7 +1160,9 @@ input:checked + .slider:before {
     max-width: 220px;
     margin-bottom: 20px; }
   .right-side .items-section .burger-banner {
-    background: none; } }
+    background: none; }
+  .top-spacing {
+    margin-top: -138px !important; } }
 
 .right-side .items-section .container {
   max-width: 1280px;
