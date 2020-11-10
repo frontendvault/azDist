@@ -1506,7 +1506,8 @@ but this will also keep them from being obnoxious
   .custom-width-modal .modal-body .close {
     margin-bottom: 15px; }
   .location-status-map {
-    padding: 20px; }
+    padding: 20px;
+    margin-top: -15px; }
     .location-status-map .location-container {
       height: auto; }
       .location-status-map .location-container .location .open-time,
@@ -1524,8 +1525,10 @@ but this will also keep them from being obnoxious
       margin-left: 12px;
       margin-right: 12px;
       box-shadow: 0 0 4px 2px #f5f5f5; }
-    .start-order .pickup-delivery .pickup-delivery-box {
-      padding: 30px 0; }
+    .start-order .pickup-delivery {
+      margin-top: -15px; }
+      .start-order .pickup-delivery .pickup-delivery-box {
+        padding: 30px 0; }
   .modal-body {
     padding-bottom: 10px; }
     .modal-body .close {
@@ -1910,7 +1913,8 @@ but this will also keep them from being obnoxious
       width: 32%; }
   .location-status-map {
     box-shadow: none;
-    padding: 15px; }
+    padding: 15px;
+    margin-top: -10px; }
     .location-status-map .location-container {
       height: auto; }
       .location-status-map .location-container .location .location-left h3 {
@@ -1949,4 +1953,6 @@ but this will also keep them from being obnoxious
   .slick-list,
   .slide-arrow {
     height: 90px;
-    padding: 0 10px !important; } }
+    padding: 0 10px !important; }
+  #exampleModal .close {
+    position: absolute !important; } }
