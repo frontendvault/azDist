@@ -522,7 +522,7 @@
                 </button>
               </div>
 
-              <div class="left-listing my-4">
+              <div class="left-listing my-4 mb-2">
                 <ul class="list-group list-group-flush px-0">
                   <li class="list-group-item">
                     <a
@@ -567,7 +567,7 @@
 
             <div class="row">
               <div class="col">
-                <div class="row mb-2 mt-xl-4 text-center text-xl-left">
+                <div class="row mb-3 text-center text-xl-left mt-xl-5">
                   <div class="col filter-buttons px-0">
                     <button
                       class="btn btn-sm btn-light btn-tgl"
@@ -685,7 +685,7 @@
                             <div
                               class="item px-md-2 pt-md-2 mx-md-2"
                               data-toggle="modal"
-                              data-target="#exampleModal"
+                              data-target="#noImgModal"
                             >
                               <!--<div class="item-img">
                                  <img
@@ -1112,71 +1112,71 @@
                                     <div class="price">$4.00</div>
                                   </div>
                                   <div class="row">
-                                    <div class="row">
-                                      <div class="col sub-total mt-4 bg-light">
-                                        <div class="add-ons">
-                                          <h5>Sub Total</h5>
-                                          <div class="price">$13.00</div>
-                                        </div>
-                                        <div
-                                          class="accordion w-100"
-                                          id="accordionExample"
-                                        >
-                                          <div class="card">
-                                            <div
-                                              class="card-header p-0"
-                                              id="headingOne"
+                                    <div class="col sub-total mt-4 bg-light">
+                                      <div class="add-ons">
+                                        <h5>Sub Total</h5>
+                                        <div class="price">$13.00</div>
+                                      </div>
+                                      <div
+                                        class="accordion w-100"
+                                        id="accordionExample"
+                                      >
+                                        <div class="card">
+                                          <div
+                                            class="card-header p-0"
+                                            id="headingOne"
+                                          >
+                                            <h2
+                                              class="mb-0"
+                                              type="button"
+                                              data-toggle="collapse"
+                                              data-target="#collapseOne"
+                                              aria-expanded="true"
+                                              aria-controls="collapseOne"
                                             >
-                                              <h2
-                                                class="mb-0"
-                                                type="button"
-                                                data-toggle="collapse"
-                                                data-target="#collapseOne"
-                                                aria-expanded="true"
-                                                aria-controls="collapseOne"
-                                              >
-                                                <div class="add-ons">
-                                                  <h5>Taxes &amp; Fees</h5>
-                                                  <div class="price">$4.00</div>
-                                                </div>
-                                              </h2>
-                                            </div>
-                                            <div
-                                              id="collapseOne"
-                                              class="collapse"
-                                              aria-labelledby="headingOne"
-                                              data-parent="#accordionExample"
-                                            >
-                                              <div class="card-body px-0">
-                                                <div class="add-ons">
-                                                  <h5>Online Ordering</h5>
-                                                  <div class="price">$1.00</div>
-                                                </div>
-                                                <div class="add-ons">
-                                                  <h5>Service Charges</h5>
-                                                  <div class="price">$1.00</div>
-                                                </div>
-                                                <div class="add-ons">
-                                                  <h5>Order Fee</h5>
-                                                  <div class="price">$1.00</div>
-                                                </div>
-                                                <div class="add-ons">
-                                                  <h5>Delivery Charges</h5>
-                                                  <div class="price">$1.00</div>
-                                                </div>
+                                              <div class="add-ons">
+                                                <h5>Taxes &amp; Fees</h5>
+                                                <div class="price">$4.00</div>
+                                              </div>
+                                            </h2>
+                                          </div>
+                                          <div
+                                            id="collapseOne"
+                                            class="collapse"
+                                            aria-labelledby="headingOne"
+                                            data-parent="#accordionExample"
+                                          >
+                                            <div class="card-body px-0">
+                                              <div class="add-ons">
+                                                <h5>Online Ordering</h5>
+                                                <div class="price">$1.00</div>
+                                              </div>
+                                              <div class="add-ons">
+                                                <h5>Service Charges</h5>
+                                                <div class="price">$1.00</div>
+                                              </div>
+                                              <div class="add-ons">
+                                                <h5>Order Fee</h5>
+                                                <div class="price">$1.00</div>
+                                              </div>
+                                              <div class="add-ons">
+                                                <h5>Delivery Charges</h5>
+                                                <div class="price">$1.00</div>
                                               </div>
                                             </div>
                                           </div>
                                         </div>
-                                        <div class="add-ons total mb-3">
-                                          <h5><strong>Total</strong></h5>
-                                          <div class="price">
-                                            <strong>$17.00</strong>
-                                          </div>
+                                      </div>
+                                      <div class="add-ons total mb-3">
+                                        <h5><strong>Total</strong></h5>
+                                        <div class="price">
+                                          <strong>$17.00</strong>
                                         </div>
                                       </div>
+                                    </div>
+                                    <div class="col-md-12 px-0">
                                       <div class="row">
-                                        <div class="col-12">
+                                        <div class="col-12 px-0">
                                           <button
                                             class="btn checkout btn-block btn-lg"
                                           >
@@ -1537,7 +1537,10 @@
             </div>
           </div>
           <div class="modal-footer p-0">
-            <button type="button" class="btn btn-primary btn-lg btn-block m-0">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg btn-block m-0 border-0"
+            >
               Add to Cart - $9.99
             </button>
           </div>
@@ -1545,7 +1548,201 @@
       </div>
     </div>
     <!--Category Items Modla Ends-->
+    <div
+      class="modal fade"
+      id="noImgModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered custom-width-modal">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close rounded-circle p-2"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true"
+                ><img src="images/item-modal-close.png" class="" alt="" />
+              </span>
+            </button>
+            <!-- <img src="images/modal-item-img.png" class="img-fluid" alt="" /> -->
 
+            <div class="row">
+              <div class="col item-description mt-4">
+                <div class="item-title">
+                  <h3>Blazin Burger</h3>
+                  <p>Spicy burger with extra layer of cheese</p>
+                  <div class="add-remove-item">
+                    <button class="btn">-</button>
+                    <input type="text" placeholder="1" class="form-control" />
+                    <button class="btn">+</button>
+                  </div>
+                </div>
+                <div class="col text-right pr-0">
+                  <div class="row">
+                    <div class="item-price col-md-12">$7.99</div>
+
+                    <div class="col-12 tags">
+                      <span
+                        class="badge alert-secondary text-secondary"
+                        tooltip="Spicy"
+                      >
+                        <img src="images/chili.svg" class="features" alt=""
+                      /></span>
+                      <span
+                        class="badge alert-secondary text-secondary"
+                        tooltip="Vegetarian"
+                      >
+                        <img
+                          src="images/vegetarian.svg"
+                          alt=""
+                          class="features"
+                        />
+                      </span>
+                      <span
+                        class="badge alert-secondary text-secondary"
+                        tooltip="Gluten Free"
+                      >
+                        <img src="images/gluten.svg" alt="" class="features"
+                      /></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5 class="mt-4 mb-3">Toppings</h5>
+            <div class="toppings">
+              <div class="toppings-contents">
+                <div
+                  class="custom-control custom-checkbox"
+                  data-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="customCheck1"
+                  />
+                  <label class="custom-control-label" for="customCheck1"
+                    >Anchovies</label
+                  >
+                </div>
+                <div class="open-on-check collapse" id="collapseExample">
+                  <div class="add-remove-item">
+                    <button class="btn">-</button>
+                    <input type="text" placeholder="1" class="form-control" />
+                    <button class="btn">+</button>
+                  </div>
+
+                  <div class="btns-area">
+                    <button class="btn brown-text">Regular</button>
+                    <button class="btn">Extra - $6</button>
+                    <div class="w-100"></div>
+                    <button class="btn">Left</button>
+                    <button class="btn brown-text">All</button>
+                    <button class="btn">Right</button>
+                  </div>
+                </div>
+              </div>
+              <div class="toppings-price">$2.00</div>
+            </div>
+            <div class="toppings">
+              <div class="toppings-contents">
+                <div
+                  class="custom-control custom-checkbox"
+                  data-toggle="collapse"
+                  href="#collapseExample1"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="customCheck2"
+                  />
+                  <label class="custom-control-label" for="customCheck2"
+                    >Peppeoroni</label
+                  >
+                </div>
+                <div class="open-on-check collapse" id="collapseExample1">
+                  <div class="add-remove-item">
+                    <button class="btn">-</button>
+                    <input type="text" placeholder="1" class="form-control" />
+                    <button class="btn">+</button>
+                  </div>
+
+                  <div class="btns-area">
+                    <button class="btn brown-text">Regular</button>
+                    <button class="btn">Extra - $6</button>
+                    <div class="w-100"></div>
+                    <button class="btn">Left</button>
+                    <button class="btn brown-text">All</button>
+                    <button class="btn">Right</button>
+                  </div>
+                </div>
+              </div>
+              <div class="toppings-price">$2.00</div>
+            </div>
+            <div class="toppings">
+              <div class="toppings-contents">
+                <div
+                  class="custom-control custom-checkbox"
+                  data-toggle="collapse"
+                  href="#collapseExample2"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="customCheck3"
+                  />
+                  <label class="custom-control-label" for="customCheck3"
+                    >Sausages</label
+                  >
+                </div>
+                <div class="open-on-check collapse" id="collapseExample2">
+                  <div class="add-remove-item">
+                    <button class="btn">-</button>
+                    <input type="text" placeholder="1" class="form-control" />
+                    <button class="btn">+</button>
+                  </div>
+
+                  <div class="btns-area">
+                    <button class="btn brown-text">Regular</button>
+                    <button class="btn">Extra - $6</button>
+                    <div class="w-100"></div>
+                    <button class="btn">Left</button>
+                    <button class="btn brown-text">All</button>
+                    <button class="btn">Right</button>
+                  </div>
+                </div>
+              </div>
+              <div class="toppings-price">$2.00</div>
+            </div>
+            <div class="add-instructions">
+              <a href="javascript:;" class="btn"> + Add special instructions</a>
+            </div>
+          </div>
+          <div class="modal-footer p-0">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg btn-block m-0 border-0"
+            >
+              Add to Cart - $9.99
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--Rewards Modla Starts-->
     <div
       class="modal fade"
@@ -1687,8 +1884,19 @@
         class="modal-dialog modal-dialog-centered custom-width-modal rewards-modal"
       >
         <div class="modal-content">
-          <div class="modal-body p-xl-4">
+          <div class="modal-header text-center">
+            <h5 class="modal-title w-100">Alert</h5>
             <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-xl-4">
+            <!-- <button
               type="button"
               class="close"
               data-dismiss="modal"
@@ -1697,13 +1905,13 @@
               <span aria-hidden="true">
                 <img src="images/cross-brown.png" />
               </span>
-            </button>
+            </button> -->
 
             <div class="row pr-3 pr-xl-5">
-              <div class="col">
+              <div class="col text-center">
                 <p class="mb-0">
-                  <span>Alert:</span> Please be aware of our new times starting
-                  next week for summer! Stay safe and healthy!
+                  Please be aware of our new times starting next week for
+                  summer! Stay safe and healthy!
                 </p>
               </div>
             </div>
@@ -2004,7 +2212,7 @@
                         </div>
                         <div class="row">
                           <div class="row">
-                            <div class="col sub-total mt-4 bg-light">
+                            <div class="col-md-12 sub-total mt-4 bg-light">
                               <div class="add-ons">
                                 <h5>Sub Total</h5>
                                 <div class="price">$13.00</div>
