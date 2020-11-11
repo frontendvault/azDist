@@ -440,10 +440,12 @@ but this will also keep them from being obnoxious
       .start-order .time-section .select-time .custom-control-input:checked ~ .custom-control-label::before {
         background: #9E4122;
         border: 1px solid #9E4122; }
-      .start-order .time-section .select-time label.w-100 {
-        position: absolute; }
-      .start-order .time-section .select-time .custom-checkbox {
-        margin-left: auto !important; }
+      .start-order .time-section .select-time .custom-control {
+        position: relative;
+        width: 110px;
+        margin: 0 auto; }
+        .start-order .time-section .select-time .custom-control .custom-control-label {
+          position: absolute; }
 
 .scrollbar {
   height: 400px;
