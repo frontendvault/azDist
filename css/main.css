@@ -435,10 +435,15 @@ but this will also keep them from being obnoxious
       padding-top: 10px;
       border-bottom: 1px solid #f5f5f5;
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      position: relative; }
       .start-order .time-section .select-time .custom-control-input:checked ~ .custom-control-label::before {
         background: #9E4122;
         border: 1px solid #9E4122; }
+      .start-order .time-section .select-time label.w-100 {
+        position: absolute; }
+      .start-order .time-section .select-time .custom-checkbox {
+        margin-left: auto !important; }
 
 .scrollbar {
   height: 400px;
