@@ -1759,7 +1759,8 @@ but this will also keep them from being obnoxious
             text-align: center;
             margin: auto; }
           .start-order .time-date-section .time-section .select-time .custom-control {
-            display: none; }
+            width: 38%;
+            text-align: left; }
       .start-order .time-date-section .slick-arrow {
         padding-left: 10px;
         padding-right: 10px; }
