@@ -1174,9 +1174,38 @@ but this will also keep them from being obnoxious
   padding: 12px 25px;
   font-weight: 600; }
 
+.redeem-rewards h4 {
+  font-size: 20px; }
+
+.redeem-rewards p span {
+  font-size: 18px;
+  color: #9E4122; }
+
+.redeem-rewards .btn {
+  background: #9E4122;
+  color: #fff; }
+
 .accordion .card-header {
   padding: 16px 20px;
   cursor: pointer; }
+  .accordion .card-header h4 {
+    font-size: 20px;
+    position: relative; }
+    .accordion .card-header h4::after {
+      content: "";
+      background: url(../images/caret-top.png) no-repeat top center;
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
+  .accordion .card-header h4.collapsed::after {
+    content: "";
+    background: url(../images/caret-bottom.png) no-repeat top center;
+    height: 20px;
+    width: 20px; }
 
 .accordion .card-body h4 {
   font-size: 18px;
