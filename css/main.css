@@ -73,6 +73,24 @@ aside {
   color: #9E4122;
   font-weight: 600; }
 
+.delivery-info {
+  background: #fff;
+  border-radius: 6px;
+  color: #565656;
+  margin-top: -90px; }
+  .delivery-info h4 {
+    font-size: 18px;
+    font-weight: 900; }
+  .delivery-info p {
+    margin-bottom: 0;
+    line-height: 22px;
+    font-size: 16px; }
+  .delivery-info .btn {
+    border: 1px solid #D8D8D8; }
+
+.common-box-shadow {
+  box-shadow: 0px 0px 4px 2px #D8D8D8; }
+
 .right-side {
   padding: 0 40px;
   /* START TOOLTIP STYLES */
@@ -94,20 +112,6 @@ aside {
       color: #343434;
       margin: 0;
       width: 30%; }
-  .right-side .delivery-info {
-    background: #fff;
-    border-radius: 6px;
-    color: #565656;
-    margin-top: -90px; }
-    .right-side .delivery-info h4 {
-      font-size: 18px;
-      font-weight: 900; }
-    .right-side .delivery-info p {
-      margin-bottom: 0;
-      line-height: 22px;
-      font-size: 16px; }
-    .right-side .delivery-info .btn {
-      border: 1px solid #D8D8D8; }
   .right-side .alert-text {
     background: #f5f5f5; }
     .right-side .alert-text p {
@@ -1169,6 +1173,24 @@ but this will also keep them from being obnoxious
   font-size: 16px;
   padding: 12px 25px;
   font-weight: 600; }
+
+.accordion .card-header {
+  padding: 16px 20px;
+  cursor: pointer; }
+
+.accordion .card-body h4 {
+  font-size: 18px;
+  font-weight: 600; }
+
+.accordion .card-body p {
+  font-size: 15px; }
+
+.accordion .card-body .btn {
+  background: #9E4122;
+  height: 30px;
+  line-height: 20px;
+  font-size: 30px;
+  color: #fff; }
 
 @media only screen and (min-width: 1260px) {
   .container {
