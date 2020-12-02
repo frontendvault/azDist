@@ -279,7 +279,9 @@
           <!-- Main container with right side content starts -->
           <div class="col-md-12">
             <div class="row">
-              <div class="col-md-9 offset-md-3 delivery-info py-4 shadow mb-5">
+              <div
+                class="col-md-10 offset-md-2 delivery-info py-4 shadow mb-5 d-none d-xl-block"
+              >
                 <div class="row">
                   <div class="col-md-5 col-xl-4 mb-4 mb-md-0">
                     <div class="row">
@@ -375,14 +377,28 @@
                 <div
                   class="row mt-md-2 mt-xl-0 mb-3 rewards-message justify-content-between"
                 >
-                  <div class="col common-box-shadow p-3 rounded redeem-rewards">
-                    <div class="row">
-                      <div class="col d-flex">
-                        <h3 class="mb-0">Rewards</h3>
-                        <p class="mb-0"><span>14</span> Points earned</p>
-                      </div>
-                      <div class="col-auto">
-                        <button class="btn">Redeem</button>
+                  <div class="col px-lg-0">
+                    <div
+                      class="col common-box-shadow p-3 rounded redeem-rewards"
+                    >
+                      <div class="row">
+                        <div class="col d-flex align-items-center">
+                          <h4 class="mb-0 mr-4">
+                            <span class="badge-bg">
+                              <img
+                                src="images/points-reward-badge.svg"
+                                alt=""
+                              />
+                            </span>
+                            <span class="d-none d-xl-inline-block"
+                              >Rewards</span
+                            >
+                          </h4>
+                          <p class="mb-0"><span>14</span> Points earned</p>
+                        </div>
+                        <div class="col-auto">
+                          <button class="btn">Redeem</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -390,17 +406,19 @@
 
                 <!-- Aside Content for Mobile/iPad Only -->
 
-                <aside class="d-block d-md-none d-xl-none mt-3">
+                <aside
+                  class="col d-block d-md-none d-xl-none mt-4 mt-lg-3 px-0"
+                >
                   <div class="btn-blocks mt-0">
                     <button
-                      class="btn btn-lg btn-block border-0 bg-white"
+                      class="btn btn-lg btn-block border-0 bg-white w-50 mx-1"
                       data-toggle="modal"
                       data-target="#orderUsualModal"
                     >
                       Order My Usual
                     </button>
                     <button
-                      class="btn btn-lg btn-block border-0 bg-white"
+                      class="btn btn-lg btn-block border-0 bg-white w-50 mx-1"
                       data-toggle="modal"
                       data-target="#popularPicksModal"
                     >
@@ -422,9 +440,9 @@
             </div>
             <div class="row">
               <div class="col">
-                <div class="col p-md-5 bg-light">
+                <div class="col p-md-5 bg-light no-bg-mobile">
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 px-0 px-lg-2">
                       <div class="accordion" id="accordionExample">
                         <div class="card common-box-shadow rounded mb-4">
                           <div class="card-header bg-white" id="headingOne1">
@@ -456,10 +474,10 @@
                                 </div>
                               </div>
                               <div class="row border-bottom pt-3">
-                                <div class="col-3">
+                                <div class="col-3 pr-0">
                                   <img
                                     src="images/blazin-burger.png"
-                                    class="img-fluid"
+                                    class="img-fluid rounded"
                                     alt=""
                                   />
                                 </div>
@@ -473,10 +491,10 @@
                                 </div>
                               </div>
                               <div class="row border-bottom pt-3">
-                                <div class="col-3">
+                                <div class="col-3 pr-0">
                                   <img
                                     src="images/blazin-burger.png"
-                                    class="img-fluid"
+                                    class="img-fluid rounded"
                                     alt=""
                                   />
                                 </div>
@@ -490,10 +508,10 @@
                                 </div>
                               </div>
                               <div class="row border-bottom pt-3">
-                                <div class="col-3">
+                                <div class="col-3 pr-0">
                                   <img
                                     src="images/blazin-burger.png"
-                                    class="img-fluid"
+                                    class="img-fluid rounded"
                                     alt=""
                                   />
                                 </div>
@@ -581,7 +599,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 px-0 px-lg-2">
                       <div class="accordion" id="accordionExample">
                         <div class="card common-box-shadow rounded mb-4">
                           <div class="card-header bg-white" id="headingFour">
@@ -613,10 +631,10 @@
                                 </div>
                               </div>
                               <div class="row border-bottom pt-3">
-                                <div class="col-3">
+                                <div class="col-3 pr-0">
                                   <img
                                     src="images/blazin-burger.png"
-                                    class="img-fluid"
+                                    class="img-fluid rounded"
                                     alt=""
                                   />
                                 </div>
@@ -630,10 +648,10 @@
                                 </div>
                               </div>
                               <div class="row border-bottom pt-3">
-                                <div class="col-3">
+                                <div class="col-3 pr-0">
                                   <img
                                     src="images/blazin-burger.png"
-                                    class="img-fluid"
+                                    class="img-fluid rounded"
                                     alt=""
                                   />
                                 </div>
@@ -647,10 +665,10 @@
                                 </div>
                               </div>
                               <div class="row border-bottom pt-3">
-                                <div class="col-3">
+                                <div class="col-3 pr-0">
                                   <img
                                     src="images/blazin-burger.png"
-                                    class="img-fluid"
+                                    class="img-fluid rounded"
                                     alt=""
                                   />
                                 </div>
@@ -1644,73 +1662,68 @@
                           <div class="price">$4.00</div>
                         </div>
                         <div class="row">
-                          <div class="row">
-                            <div class="col-md-12 sub-total mt-4 bg-light">
-                              <div class="add-ons">
-                                <h5>Sub Total</h5>
-                                <div class="price">$13.00</div>
-                              </div>
-                              <div
-                                class="accordion w-100"
-                                id="accordionExample"
-                              >
-                                <div class="card">
-                                  <div class="card-header p-0" id="headingOne">
-                                    <h2
-                                      class="mb-0"
-                                      type="button"
-                                      data-toggle="collapse"
-                                      data-target="#collapseOne"
-                                      aria-expanded="true"
-                                      aria-controls="collapseOne"
-                                    >
-                                      <div class="add-ons">
-                                        <h5>Taxes &amp; Fees</h5>
-                                        <div class="price">$4.00</div>
-                                      </div>
-                                    </h2>
-                                  </div>
-                                  <div
-                                    id="collapseOne"
-                                    class="collapse"
-                                    aria-labelledby="headingOne"
-                                    data-parent="#accordionExample"
+                          <div class="col-md-12 sub-total mt-4 bg-light">
+                            <div class="add-ons">
+                              <h5>Sub Total</h5>
+                              <div class="price">$13.00</div>
+                            </div>
+                            <div class="accordion w-100" id="accordionExample">
+                              <div class="card">
+                                <div class="card-header p-0" id="headingOne">
+                                  <h2
+                                    class="mb-0"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#collapseOne"
+                                    aria-expanded="true"
+                                    aria-controls="collapseOne"
                                   >
-                                    <div class="card-body px-0">
-                                      <div class="add-ons">
-                                        <h5>Online Ordering</h5>
-                                        <div class="price">$1.00</div>
-                                      </div>
-                                      <div class="add-ons">
-                                        <h5>Service Charges</h5>
-                                        <div class="price">$1.00</div>
-                                      </div>
-                                      <div class="add-ons">
-                                        <h5>Order Fee</h5>
-                                        <div class="price">$1.00</div>
-                                      </div>
-                                      <div class="add-ons">
-                                        <h5>Delivery Charges</h5>
-                                        <div class="price">$1.00</div>
-                                      </div>
+                                    <div class="add-ons">
+                                      <h5>Taxes &amp; Fees</h5>
+                                      <div class="price">$4.00</div>
+                                    </div>
+                                  </h2>
+                                </div>
+                                <div
+                                  id="collapseOne"
+                                  class="collapse"
+                                  aria-labelledby="headingOne"
+                                  data-parent="#accordionExample"
+                                >
+                                  <div class="card-body px-0">
+                                    <div class="add-ons">
+                                      <h5>Online Ordering</h5>
+                                      <div class="price">$1.00</div>
+                                    </div>
+                                    <div class="add-ons">
+                                      <h5>Service Charges</h5>
+                                      <div class="price">$1.00</div>
+                                    </div>
+                                    <div class="add-ons">
+                                      <h5>Order Fee</h5>
+                                      <div class="price">$1.00</div>
+                                    </div>
+                                    <div class="add-ons">
+                                      <h5>Delivery Charges</h5>
+                                      <div class="price">$1.00</div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div class="add-ons total mb-3">
-                                <h5><strong>Total</strong></h5>
-                                <div class="price">
-                                  <strong>$17.00</strong>
-                                </div>
+                            </div>
+                            <div class="add-ons total mb-3">
+                              <h5><strong>Total</strong></h5>
+                              <div class="price">
+                                <strong>$17.00</strong>
                               </div>
-                              <div class="row">
-                                <div class="col-12">
-                                  <button
-                                    class="btn checkout btn-block btn-lg rounded"
-                                  >
-                                    Proceed to Checkout
-                                  </button>
-                                </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <button
+                                  class="btn checkout btn-block btn-lg rounded"
+                                >
+                                  Proceed to Checkout
+                                </button>
                               </div>
                             </div>
                           </div>
