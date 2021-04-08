@@ -2828,3 +2828,8 @@ but this will also keep them from being obnoxious
 }
 .grid-list-container .accordion .card {
 }
+
+.cart-dropdown {
+  width: 300px;
+  padding: 0 15px;
+}
