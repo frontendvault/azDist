@@ -37,6 +37,22 @@
             height: 35px;
             width: 35px;
         }
+
+        .plus-msg-holder {
+            position: relative;
+        }
+
+        .plus-msg-holder .plus-icon {
+            position: absolute;
+            left: -20px;
+            top: 12px;
+        }
+
+        .plus-msg-holder .send-msg {
+            position: absolute;
+            right: -100px;
+            top: 12px;
+        }
     </style>
 </head>
 
@@ -65,50 +81,56 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col">
-                          
-                          <table class="table">
+
+                        <table class="table">
                             <thead class="thead-dark">
-                              <tr>
-                                <th >Who</th>
-                                
-                                <th></th>
-                                <th  class="text-right">Amount</th>
-                              </tr>
+                                <tr>
+                                    <th>Who</th>
+
+
+                                    <th class="text-right">Amount</th>
+                                </tr>
                             </thead>
                             <tbody>
-                              <tr>
-                                <td>Myself</td>
-                                <td></td>
-                                <td class="text-right">$10.00</td>
-                                
-                              </tr>
-                              <tr>
-                                <td>4054984512</td>
-                                <td><small>send SMS</small></td>
-                                <td class="text-right">$10.00</td>
-                                
-                              </tr>
-                              <tr>
-                                <td>4054984512</td>
-                                <td><small>send SMS</small></td>
-                                <td class="text-right">$10.00</td>
-                                
-                              </tr>
-                              <tr>
-                                <td>+314054984512</td>
-                                <td><small>send SMS</small></td>
-                                <td class="text-right">$10.00</td>
-                                
-                              </tr>
+                                <tr>
+                                    <td>Myself</td>
+
+                                    <td class="text-right">$10.00</td>
+
+                                </tr>
+                                <tr>
+                                    <td>4054984512</td>
+
+                                    <td class="text-right">$10.00</td>
+
+                                </tr>
+                                <tr class="plus-msg-holder">
+                                    <td>4054984512 <div class="plus-icon">+</div>
+                                    </td>
+
+                                    <td class="text-right">$10.00 <div class="send-msg">send SMS</div>
+                                    </td>
+                                    </td>
+
+                                </tr>
+                                <tr class="plus-msg-holder">
+                                    <td>314054984512 <div class="plus-icon">+</div>
+                                    </td>
+
+                                    <td class="text-right">$10.00 <div class="send-msg">send SMS</div>
+                                    </td>
+
+                                </tr>
                             </tbody>
                             <tfoot class="bg-light">
                                 <tr>
                                     <td>Remaining</td>
-                                
-                                <td></td>    <td class="text-right">$0.00</td>
+
+
+                                    <td class="text-right">$0.00</td>
                                 </tr>
                             </tfoot>
-                          </table>
+                        </table>
                     </div>
                 </div>
             </div>
