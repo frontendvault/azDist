@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet" />
+
+    <title>Arizona Sandwich! Start Order</title>
+    <style>
+        .close-modal-common {
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            background: #333;
+            color: #fff;
+            opacity: .8;
+            position: absolute;
+            top: 26px;
+            right: 26px; padding:0; text-align: center; font-weight:normal;
+        }
+        
+        /* .close-modal-common span {
+            font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       margin-top: -2px;
+    margin-right: -1px;
+
+        } */
+        .close-modal-common:hover { color:#fff; opacity: 1;}
+
+        .available-locations .modal-title{ font-size: 18px; font-weight: bold; color: #bc351b;}
+        .available-location-listings li { list-style: none;}
+        .available-location-listings li a{ color: #454545; display:block;}
+        .available-location-listings li:hover{ color: #454545; background:#f7f7f7; cursor: pointer; }
+        .available-location-listings li a:hover {text-decoration: none;}
+
+
+        .available-location-description {
+            font-size: 15px;
+            color: #454545;
+        }
+
+        .available-notification {
+            font-size: 14px;
+            color: #666;
+            font-weight: 500; color: #bc351b;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal available-locations fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Available Delivery Locations</h5>
+                    <div type="button" class="close close-modal-common p-0" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <ul class="available-location-listings pl-0">
+                        <li class="border-bottom p-2"><a href="#">Black Duck</a></li>
+                        <li class="border-bottom p-2"><a href="#">Osprey</a></li>
+                    </ul>
+
+                    <div class="available-location-description bg-light p-3">
+                        <p class=""> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Sunt eligendi obcaecati quasi minus cupiditate tempora fugit unde, mollitia quaerat ipsam
+                            vero
+                            eveniet et ullam laborum reiciendis eum magnam eos officiis maiores. Modi commodi deserunt
+                            fugiat deleniti hic dolor aperiam cumque? </p>
+                    </div>
+                    <div class="available-notification border-top pt-2 text-center">
+                        <p>Delivery charge may apply</p>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
